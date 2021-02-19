@@ -12,13 +12,13 @@ Your code should be written to maximise its maintainability and reusability.
 
 Refer to the GitHub API v3 documentation for information: https://developer.github.com/v3/ 
 
-GitHub model classes may be imported, if desired, from:
+GitHub model classes may are available from:
 
 https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core#core-orgeclipseegitgithubcore 
 
-This project cotains code to import these model classes usign Maven. There is also a single test function to demostarte usage.
+This project contains code to use these model classes and rhere is also a single test function to demostrate usage.
 
-You don't need to use these classes and can use choose to use communcition mechanism to make API requests.
+You may choose to these these classes or can use choose to use communcition mechanism to make API requests.
 
 You may also want to use an existing test framework.
 
