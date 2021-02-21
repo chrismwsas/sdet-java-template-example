@@ -22,15 +22,16 @@ You may also use an existing test framework that you are familiar with e.g. Cucu
 
 ## Example Code
 
-This project contains code to demonstarte use of the GitHub model classes with a test class (GitHubJavaAPITest) and a single test function (test_BasicAuthenticationGetUserName).
+This project contains code to demonstarte use of the GitHub model classes with a single test class, GitHubJavaAPITest, containing a single test function (test_BasicAuthenticationGetUserName).
 
-You can run this test from your IDE after you have built the GitHub model classes (see above). If you don't build the GitHub model JAR locally, you'll see an error like: 
+You can run this test from your IDE after you have built the GitHub model classes (see above). If you don't build the GitHub model JAR locally and you try to run the test, you'll see an error like: 
 
 > java: package org.eclipse.egit.github.core does not exist
 
 The POM file references this as library: 
 
-```<dependency>
+```
+<dependency>
     <groupId>org.eclipse.mylyn.github</groupId>
     <artifactId>org.eclipse.egit.github.core</artifactId>
     <version>2.1.5</version>
