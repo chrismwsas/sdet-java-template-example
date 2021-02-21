@@ -24,7 +24,7 @@ You may also want to use an existing test framework that you are familiatr worth
 
 This project contains code to use the GitHun model model classes and rhere is also a single test function to demostrate usage.
 
-You may choose to build upon this code or you can use a differnt technology to make API requests like REST Assured.
+You may choose to build upon this code or you can start freash and even use a differnt technology to make API requests like REST Assured.
 
 ## Access to the GitHub API
 
