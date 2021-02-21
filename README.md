@@ -22,14 +22,32 @@ You may also use an existing test framework that you are familiar with e.g. Cucu
 
 ## Example Code
 
-This project contains code to use the GitHun model model classes and a test class (GitHubJavaAPITest) with a single test function (test_BasicAuthenticationGetUserName) to demostrate usage.You can run this test from your IDE. It requires a valid GitHub username and token (see below for getting a GitHub access token)
+This project contains code to demonstarte use of the GitHub model classes with a test class (GitHubJavaAPITest) and a single test function (test_BasicAuthenticationGetUserName).
 
-You may choose to build upon this code or you can start fresh and even use a different technology for API requests like REST Assured.
+You can run this test from your IDE after you have built the GitHub model classes (see above). If you don't build the GitHub model JAR locally, you'll see an error like: 
+
+> java: package org.eclipse.egit.github.core does not exist
+
+The POM file references this as library: 
+
+```<dependency>
+    <groupId>org.eclipse.mylyn.github</groupId>
+    <artifactId>org.eclipse.egit.github.core</artifactId>
+    <version>2.1.5</version>
+</dependency>
+```
+
+The version of the library you build may be different.
+
+The test function also requires a valid GitHub username and token (see below for getting a GitHub access token).
+
+You may choose to build upon this code or you can start fresh. You may also choose a different technology from the GitHub model classes for API requests such as REST Assured.
+
 
 ## Access to the GitHub API
 
-You must use your own GitHub account and need to generate and access token. You create an access token by selecting the Settings page for your account and then select Developer settings (https://github.com/settings/tokens).
+You must use your own GitHub account and need to generate an access token. You can create an access token by selecting the Settings page for your GitHub account and then selecting Developer settings (https://github.com/settings/tokens).
 
 ## Pushing code
 
-You should push your code change to remote repsitory as you make changes throughout the durtion of the test.
+You should push your code change to remote repsitory as you make changes throughout the duration of the test.
