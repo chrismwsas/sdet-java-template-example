@@ -18,7 +18,7 @@ You can use the GitHub model classes that are available from:
 
 https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core#core-orgeclipseegitgithubcore 
 
-You may also want to use an existing test framework that you are familiatr worth. You should choose the technologies you are most familair and comfortable with. 
+You may also use an existing test framework that you are familiar with e.g. Cucumber for BDD). You should choose the technologies you have experience in and are comfortable with.
 
 ## Example Code
 
