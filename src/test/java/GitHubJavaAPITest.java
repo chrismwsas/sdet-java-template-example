@@ -12,10 +12,10 @@ public class GitHubJavaAPITest {
     public void test_BasicAuthenticationGetUserName()
     {
         String username = "user";
-        String oauthtoken = "token";
+        String token = "token";
 
         GitHubClient client = new GitHubClient();
-        client.setCredentials(username, oauthtoken);
+        client.setCredentials(username, token);
 
         UserService userService = new UserService(client);
 
