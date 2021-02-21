@@ -32,4 +32,4 @@ You must use your own GitHub account and need to generate and access token. You 
 
 ## Pushing code
 
-As you write code, can should push it to remote repsitory.
+You should push your code change to remote repsitory as you make changes throughout the durtion of the test.
