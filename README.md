@@ -8,7 +8,7 @@ Write three tests to verify the following user journeys:
 
 1. As a user, I want to be able to login, see my details, and get a list of my repositories.
 2. As a user, I want to be able to create, edit and view a repository.
-3. As a user, I want to be able to create an Issue, get a list of Issues for my repo, and add/view comments on that Issue.
+3. As a user, I want to be able to create an Issue, get a list of Issues for my repo, and add or view comments on that Issue.
 
 Your code should be written to maximise its maintainability and reusability.
 
@@ -43,10 +43,13 @@ The test function also requires a valid GitHub username and token (see below for
 
 You may choose to build upon this code or you can start fresh. You may also choose a different technology from the GitHub model classes for API requests such as REST Assured.
 
-
 ## Access to the GitHub API
 
 You must use your own GitHub account and need to generate an access token. You can create an access token by selecting the Settings page for your GitHub account and then selecting Developer settings (https://github.com/settings/tokens).
+
+## Exploring the GitHub API
+
+You may want to use a tool like Postman or Curl to explore the GiTHub API before you write Java code.
 
 ## Pushing code
 
