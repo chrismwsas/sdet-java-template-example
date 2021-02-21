@@ -22,9 +22,9 @@ You may also use an existing test framework that you are familiar with e.g. Cucu
 
 ## Example Code
 
-This project contains code to use the GitHun model model classes and rhere is also a single test function to demostrate usage.
+This project contains code to use the GitHun model model classes and a test class (GitHubJavaAPITest) with a single test function (test_BasicAuthenticationGetUserName) to demostrate usage.You can run this test from your IDE. It requires a valid GitHub username and token (see below for getting a GitHub access token)
 
-You may choose to build upon this code or you can start freash and even use a differnt technology to make API requests like REST Assured.
+You may choose to build upon this code or you can start fresh and even use a different technology for API requests like REST Assured.
 
 ## Access to the GitHub API
 
