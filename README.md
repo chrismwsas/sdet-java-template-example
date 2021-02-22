@@ -2,6 +2,25 @@
 
 In this exercise you will have 3 hours to create tests and supporting functions in Java to test certain user journeys through GitHub using its API.
 
+## Pre-requisites
+
+You must use your own GitHub account and you will need to generate an access token. You can create an access token by selecting the Settings page for your GitHub account and then selecting Developer settings (https://github.com/settings/tokens).
+
+You will need a Java JDK. Version 8 will be sufficient. We would also highly recommend installing maven and verifying that you can use it.
+
+On Windows, this should be as simple as installing the package manager Chocolatey (https://chocolatey.org/install) then running:
+
+````
+choco install jdk8
+choco install maven
+````
+
+Or follow the instructions here for your platform:
+
+https://www.baeldung.com/install-maven-on-windows-linux-mac
+
+You can use any IDE and tools that you are familiar with.
+
 ## Tasks
 
 Write three tests to verify the following user journeys:
@@ -14,46 +33,25 @@ Your code should be written to maximise its maintainability and reusability.
 
 Refer to the GitHub API v3 documentation for information: https://developer.github.com/v3/.
 
-You can use the GitHub model classes that are available from:
-
-https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core#core-orgeclipseegitgithubcore 
-
 You should choose technologies you have experience in and are comfortable with.
 
 ## Example Code
 
-This project contains code to demonstarte use of the GitHub model classes with a single test class, GitHubJavaAPITest, containing a single test function (test_BasicAuthenticationGetUserName).
+This project contains simple code to demonstrate the use of a GitHub query API, and Junit, with a single test class, GitHubJavaAPITest, containing a single test function (test_BasicAuthenticationGetUserName). 
 
-You can run this test from your IDE after you have built the GitHub model classes (see above). The test is executed using JUnit as the test framework.
+You may choose to build upon this code or you can start fresh. You may also choose a different technology from the GitHub model classes for API requests, such as REST Assured.
 
-If you don't have the GitHub model JAR locally and you try to run the test, you'll see an error like: 
+To run the example test, first edit src/test/java/GitHubJavaAPITest.java and change the username and token to your GitHub user and your personal access token as generated earlier.
 
-> java: package org.eclipse.egit.github.core does not exist
+Then run:
 
-The POM file references this as library: 
+````
+mvn test
+````
 
-```
-<dependency>
-    <groupId>org.eclipse.mylyn.github</groupId>
-    <artifactId>org.eclipse.egit.github.core</artifactId>
-    <version>2.1.5</version>
-</dependency>
-```
-You should be able to get the library with 
+This should pull down all the dependencies and run and pass the single test.
 
-```
-mvn install
-```
-
-Or you can build the library locally. If you do do this, the version you build may be different.
-
-The test function also requires a valid GitHub username and token (see below for getting a GitHub access token).
-
-You may choose to build upon this code or you can start fresh. You may also choose a different technology from the GitHub model classes for API requests such as REST Assured.
-
-## Access to the GitHub API
-
-You must use your own GitHub account and need to generate an access token. You can create an access token by selecting the Settings page for your GitHub account and then selecting Developer settings (https://github.com/settings/tokens).
+Alternatively, you can run this test from your IDE of choice using whatever method you are familiar with.
 
 ## Exploring the GitHub API
 
@@ -61,4 +59,4 @@ You may want to use a tool like Postman or Curl to explore the GitHub API before
 
 ## Pushing code
 
-You should push your code change to remote repsitory as you make changes throughout the duration of the test.
+You should push your code change to the remote GitHub remote repository as you make changes throughout the duration of the test.
