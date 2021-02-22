@@ -39,8 +39,13 @@ The POM file references this as library:
     <version>2.1.5</version>
 </dependency>
 ```
+You should be able to get the library with 
 
-If you build the library, the version you build may be different.
+```
+mvn install
+```
+
+Or you can build the library locally. If you do do this, the version you build may be different.
 
 The test function also requires a valid GitHub username and token (see below for getting a GitHub access token).
 
