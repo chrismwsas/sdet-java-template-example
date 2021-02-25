@@ -1,6 +1,6 @@
 # Software Development Engineer in Test
 
-To prepare for the SDET technical test, you should follow the instructions below to run a Java test with JUnit that talks to the GitHub API.
+To prepare for the SDET technical test, you should follow the instructions below to run a Java test with JUnit that makes a REST request on the GitHub API.
 
 Note that you must be able to run the test before you undertake the technical test. If you are cannot get the test to run please contact your representative from SAS. 
 
