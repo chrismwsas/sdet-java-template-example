@@ -1,6 +1,8 @@
 # Software Development Engineer in Test
 
-In this exercise you will have 3 hours to create tests and supporting functions in Java to test certain user journeys through GitHub using its API.
+To prepare for the SDET technical test, you should follow the instructions below to run a Java test with JUnit that talks to the GitHub API.
+
+Note that you must be able to run the test before you undertake the technical test. If you are cannot get the test to run please contact your representative from SAS. 
 
 ## Pre-requisites
 
@@ -21,25 +23,9 @@ https://www.baeldung.com/install-maven-on-windows-linux-mac
 
 You can use any IDE and tools that you are familiar with.
 
-## Tasks
-
-Write three tests to verify the following user journeys:
-
-1. As a user, I want to be able to login, see my details, and get a list of my repositories.
-2. As a user, I want to be able to create, edit and view a repository.
-3. As a user, I want to be able to create an Issue, get a list of Issues for my repo, and add or view comments on that Issue.
-
-Your code should be written to maximise its maintainability and reusability.
-
-Refer to the GitHub API v3 documentation for information: https://developer.github.com/v3/.
-
-You should choose technologies you have experience in and are comfortable with.
-
 ## Example Code
 
 This project contains simple code to demonstrate the use of a GitHub query API, and Junit, with a single test class, GitHubJavaAPITest, containing a single test function (test_BasicAuthenticationGetUserName). 
-
-You may choose to build upon this code or you can start fresh. You may also choose a different technology from the GitHub model classes for API requests, such as REST Assured.
 
 To run the example test, first edit src/test/java/GitHubJavaAPITest.java and change the username and token to your GitHub user and your personal access token as generated earlier.
 
@@ -53,10 +39,10 @@ This should pull down all the dependencies and run and pass the single test.
 
 Alternatively, you can run this test from your IDE of choice using whatever method you are familiar with.
 
-## Exploring the GitHub API
+# Next Steps 
 
-You may want to use a tool like Postman or Curl to explore the GitHub API before you write Java code.
+During the technical test you'll be asked to work through a number of programing tasks.
 
-## Pushing code
+The code in this example can be used as the basis of coding solutions to the tasks. 
 
-You should push your code change to the remote GitHub remote repository as you make changes throughout the duration of the test.
+However, you may choose to start fresh using different technology othen than the GitHub model classes for API requests (for example, REST Assured). 
