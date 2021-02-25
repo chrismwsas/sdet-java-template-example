@@ -41,8 +41,8 @@ Alternatively, you can run this test from your IDE of choice using whatever meth
 
 # Next Steps 
 
-During the technical test you'll be asked to work through a number of programing tasks.
+During the technical test you'll be asked to work through a number of programming tasks.
 
 The code in this example can be used as the basis of coding solutions to the tasks. 
 
-However, you may choose to start fresh using different technology othen than the GitHub model classes for API requests (for example, REST Assured). 
+However, you may choose to start fresh using different technology othet than the GitHub model classes for API requests (for example, REST Assured). 
